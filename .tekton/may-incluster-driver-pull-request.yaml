@@ -28,9 +28,7 @@ spec:
   - name: image-expires-after
     value: 5d
   - name: build-platforms
-    value:
-    - linux/amd64
-    - linux/arm64
+    value: "linux/amd64"
   - name: dockerfile
     value: drivers/incluster/Dockerfile
   - name: hermetic
